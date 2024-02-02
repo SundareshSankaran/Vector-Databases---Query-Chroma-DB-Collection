@@ -77,11 +77,11 @@ Here's a quick idea:
 2. Embedding model astore name (text field, required): provide the name of a VTA astore model to generate embeddings on the query text. 
 
 ------------------------------------------------------------------
-Follow this process to obtain the above values:
+> Follow this process to obtain the above values:
 
-  1. In Model Studio, right click on the topics node you used to create an embeddings model.  Select Results
-  2. In the score code portion of the results, locate and copy the values of the following macro variables: input_astore_caslib_name & input_astore_name.  Use in the above two fields.
-  3. Some users may choose to develop embedding models programmatically.  They would have specified an astore name and caslib while doing so, which can be used for above fields.
+   1. In Model Studio, right click on the topics node you used to create an embeddings model.  Select Results
+   2. In the score code portion of the results, locate and copy the values of the following macro variables: input_astore_caslib_name & input_astore_name.  Use in the above two fields.
+   3. Some users may choose to develop embedding models programmatically.  They would have specified an astore name and caslib while doing so, which can be used for above fields.
 ------------------------------------------------------------------
 
 3. Embedding pattern (text column, required, default of _Col):  document embeddings tend to be long series involving 100s or sometimes 1000s of columns.  Provide a text pattern which applies to all embedding column names. For example,  _Col represents _Col_1, _Col_2..... _Col_n.  A default of _Col is provided since this happens to be the default value for Visual Text Analytics-generated embeddings.
