@@ -10,7 +10,7 @@ Vector databases facilitate Generative AI and other applications, notably provid
 
 Here's a quick idea:
 
-[Vector Databases - Query Chroma DB Collection](./img/Vector_Databases_Query_Chroma_DB_Collection.png) 
+![Vector Databases - Query Chroma DB Collection](./img/Vector_Databases_Query_Chroma_DB_Collection.png) 
 
 ----
 ## Table of Contents
