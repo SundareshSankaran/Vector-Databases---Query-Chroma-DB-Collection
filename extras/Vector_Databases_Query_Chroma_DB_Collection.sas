@@ -19,14 +19,18 @@ caslib _ALL_ assign;
 *------------------------------------------------------------------------------------------*/
 %let inputTable=PUBLIC.Topics_20240123;
 %let inputTable_lib=PUBLIC;
+%let outputTable=PUBLIC.OUTPUT_TABLE;
+%let outputTable_lib=PUBLIC;
 %let casHostPath=sas-cas-server-default-client;
 %let casHostPort=5570;
-%let persistentPath=sasserver:/tmp;
+%let persistentPathName=sasserver:/tmp;
 %let collectionName=new_collection;
 %let embeddingPattern=_Col;
-%let docId=__unique_id_;
-%let textVar=Text_Review;
-%let metadataColumn=Target_Rating;
+%let queryColumn=Text_Review;
+%let numberOfResults=5;
+%let promoteTable=1;
+%let astoreTable_lib="Analytics-Project-1really-l0ng-alphanumer1c";
+%let astoreTable_name="TOPICS-129293198-123912839128-BINARY";
 
 
 /*-----------------------------------------------------------------------------------------*
